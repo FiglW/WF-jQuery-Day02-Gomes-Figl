@@ -1,0 +1,47 @@
+#slots{
+	border: 2px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.numberSlot{
+	border: 1px solid black;
+	text-align: center;
+	width: 80px;
+	height: 120px;
+}
+
+
+#cards{
+	border: 2px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top: 40px;
+}
+
+.numberCard{
+	border: 1px solid orange;
+	text-align: center;
+	width: 80px;
+	height: 120px;
+}
+
+.addBack{
+	background-image: url("../basic/img/santa.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.rightSlot{
+	background-color: green;
+}
+
+.wrongSlot{
+	background-color: grey;
+}
+
+.winColor{
+	background-color: black;
+}
